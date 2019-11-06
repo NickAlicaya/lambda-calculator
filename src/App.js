@@ -22,11 +22,11 @@ function App() {
   return (
     <div className="container">
       <Logo />
-      <Display/>
+      <Display displayValue={displayValue}/>
       <div className="App">
          <Specials/>
          <Numbers/>
-        <Operators/>
+         <Operators/>
         
         
       </div>

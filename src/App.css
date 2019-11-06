@@ -10,7 +10,7 @@
    
 }
 .display {
-    margin-top: 25px 20px;
+    margin: 25px 20px auto;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -18,10 +18,10 @@
     background-color: #322c2d;
     box-shadow: 1px 1px #322c2d;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    /* padding-right: 8%; */
-    font-size: 5.0rem;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 8%;
+    font-size: 3rem;
     overflow:hidden;
   }
 
@@ -43,6 +43,18 @@
         border:1px solid black;
         border-radius:50px;
         background-color:skyblue;
+        color:white;
+        margin:12px;
+        
+      }
+
+      .special-button{
+        height:80px;
+        width:80px;
+        font-size: 30px;
+        border:1px solid black;
+        border-radius:50px;
+        background-color:rgb(32, 97, 176);
         color:white;
         margin:12px;
         
