@@ -1,13 +1,16 @@
+
 .container {
     background-color: #c00025;
     width: 100%;
     max-width: 550px;
+    height:750px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+   
 }
 .display {
-    margin-top: 25px;
+    margin: 25px 20px auto;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -16,7 +19,57 @@
     box-shadow: 1px 1px #322c2d;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
     padding-right: 8%;
-    font-size: 5.0rem;
+    font-size: 3rem;
+    overflow:hidden;
   }
+
+  .button{
+      height:80px;
+      width:80px;
+      font-size: 30px;
+      border:1px solid black;
+      border-radius:50px;
+      background-color:midnightblue;
+      color:white;
+      margin:12px;
+      
+    }
+    .operator-button{
+        height:80px;
+        width:80px;
+        font-size: 30px;
+        border:1px solid black;
+        border-radius:50px;
+        background-color:skyblue;
+        color:white;
+        margin:12px;
+        
+      }
+
+      .special-button{
+        height:80px;
+        width:80px;
+        font-size: 30px;
+        border:1px solid black;
+        border-radius:50px;
+        background-color:rgb(32, 97, 176);
+        color:white;
+        margin:12px;
+        
+      }
+  .numbersContainer{
+      /* margin: 2rem auto; */
+      /* display:flex;
+      justify-content:space-evenly;
+      align-items: center;
+      flex-wrap:wrap; */
+      width:350px;
+      padding:.25rem;
+     
+    }
+    .app{
+        display: flex;
+        justify-content: space-around; 
+    }
